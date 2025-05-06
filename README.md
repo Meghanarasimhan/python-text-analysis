@@ -1,4 +1,4 @@
-### Python Text Analysis
+# Python Text Analysis
 
 A Python script for analyzing text files by counting and manipulating character frequencies.
 
@@ -38,14 +38,17 @@ Random Distribution: Creates three separate dictionaries and randomly assigns ea
 Dictionary Merging: Combines the three random dictionaries back into one, adding the character counts.
 Validation: Tests that the merged dictionary matches the original character counts.
 
-# Example Output
+### Example Output
+```
 Character counts: {'H': 10, 'a': 42, 'd': 15, 'o': 25, 'p': 8, ...}
 (a) The total dictionary has 37 keys.
-
-# Random character count dictionaries: [{'H': 3, 'a': 15, ...}, {'d': 7, 'o': 8, ...}, {'p': 4, 'a': 10, ...}]
+```
+```
+### Random character count dictionaries: [{'H': 3, 'a': 15, ...}, {'d': 7, 'o': 8, ...}, {'p': 4, 'a': 10, ...}]
 
 Merged character count dictionary: {'H': 10, 'a': 42, 'd': 15, 'o': 25, 'p': 8, ...}
 (a) The merged dictionary has 37 keys.
 (b) The key with the maximum value in merged dictionary is 'a' with count 42.
 
 Test passed: Merged counts match char counts.
+```
